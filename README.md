@@ -12,6 +12,18 @@ Getting Started
 
 [![Binder](http://mybinder.org/badge.svg)](http://mybinder.org:/repo/ellisonbg/ipyleaflet/notebooks/examples)
 
+Your first map
+-------------
+
+```
+import ipyleaflet
+map = ipyleaflet.Map(center=[37.9714, 23.7265], zoom=17)
+map
+```
+
+A map centered on the Pantheon in Greece, rendered inline in your Jupyter Notebook should have appeared.
+
+
 Installation
 ------------
 
